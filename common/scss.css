@@ -1,0 +1,5 @@
+[data-wrap="blink"], blink, .blink { animation: blink 1s step-end infinite; }
+
+@keyframes blink {
+  67% { opacity: 0 }
+}
