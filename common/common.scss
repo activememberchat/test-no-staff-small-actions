@@ -1,5 +1,7 @@
-[data-wrap="blink"], blink, .blink { animation: blink 1s step-end infinite; }
+.small-action.onscreen-post {
+    display: none;
+}
 
-@keyframes blink {
-  67% { opacity: 0 }
+.staff .small-action.onscreen-post {
+    display: inital;
 }
